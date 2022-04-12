@@ -15,14 +15,14 @@
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustom01">Transport name</label>
-      <input name="TransportName" class="form-control" id="validationCustom01" placeholder="Tour Name"  required>
+      <input name="TransportName" class="form-control" id="validationCustom01" placeholder="Transport Name"  required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <label for="validationCustom02">Transport Type</label>
-      <input name="TransportType" class="form-control" id="validationCustom02" placeholder="Destination"  required>
+      <input name="TransportType" class="form-control" id="validationCustom02" placeholder="type"  required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -31,15 +31,15 @@
     <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustomUsername">location</label>
-    
-        <input name="location" class="form-control" id="validationCustomUsername" placeholder="Duration" aria-describedby="inputGroupPrepend" required>
+
+        <input name="location" class="form-control" id="validationCustomUsername" placeholder="Location" aria-describedby="inputGroupPrepend" required>
         <div class="valid-feedback">
           Please choose a username.
-        
+
       </div>
     </div>
   </div>
- 
+
   <div class="form-group">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -50,7 +50,7 @@
         You must agree before submitting.
       </div>
       </div>
-      
+
       </div>
   <button class="btn btn-primary" type="submit">Submit form</button>
 </div>

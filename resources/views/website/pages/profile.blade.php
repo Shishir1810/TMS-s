@@ -113,7 +113,7 @@
                     <div class="col-md-4">
                         <div class="profile-img"style="">
                             <img src="{{'/uploads/users/'.$user->image}}" alt=""/>
-                            
+
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -123,17 +123,17 @@
                                     </h5>
                                     <h6 style="margin-bottom: 8rem;">
                                        {{$user->bio}}
-                                       
+
                                     </h6>
-                                  
-                                  
+
+
 <br></br>
 
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                
+
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
-                                    
+
                                 </li>
                                 <li class="nav-item">
                                     <!-- <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Website</a> -->
@@ -141,33 +141,33 @@
                             </ul>
                         </div>
                     </div>
-                   
-                        
-                   
+
+
+
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-work">
                         <a href="{{route('profile.edit',$user->id)}}"class="btn btn-primary"style="margin-right:8rem;width: 15rem;box-shadow: 0px 2px 6px #000000cc;background-color: rgb(0 0 0 / 0%);border-color: rgb(0 0 0 / 8%);" class="profile-edit-btn"  >Edit Profile</a><br></br>
                             <a href="{{route('Myplan.list')}}"class="btn btn-primary"style="width: 15rem;box-shadow: 0px 2px 6px #000000cc;background-color: rgb(0 0 0 / 0%);border-color: rgb(0 0 0 / 8%);">My Tour Plan</a><br></br>
-                            
-                           
-                                
+
+
+
                             <a href="{{route('tourplan.list')}}"class="btn btn-primary"style="width: 15rem;box-shadow: 0px 2px 6px #000000cc;background-color: rgb(0 0 0 / 0%);border-color: rgb(0 0 0 / 8%);">Join Requests</a><br></br>
-                            
+
                           <a href="{{route ('My.Joined.Plan.List')}}"class="btn btn-primary"style="width: 15rem;box-shadow: 0px 2px 6px #000000cc;background-color: rgb(0 0 0 / 0%);border-color: rgb(0 0 0 / 8%);">I joined</a><br></br>
                           <a href="{{route('My.blog.List')}}"class="btn btn-primary"style="width: 15rem;box-shadow: 0px 2px 6px #000000cc;background-color: rgb(0 0 0 / 0%);border-color: rgb(0 0 0 / 8%);">My Blog List</a><br></br>
                           <a href="{{route ('user.spot.list')}}"class="btn btn-primary"style="width: 15rem;box-shadow: 0px 2px 6px #000000cc;background-color: rgb(0 0 0 / 0%);border-color: rgb(0 0 0 / 8%);">My Spot List</a>
-                         
-                   
+
+
                         </div>
                         <a href="{{route('website')}}">back</a>
                     </div>
-                    
+
                     <div class="col-md-8">
                         <div class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                        
+
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label>Name</label>
@@ -200,7 +200,7 @@
                                                 <p>{{$user->DOB}}</p>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label>Phone</label>
@@ -226,15 +226,15 @@
                                             </div>
                                         </div>
                             </div>
-                           
-                               
+
+
                             </div>
-                            
+
                         </div>
-                        
+
                     </div>
-                    
+
                 </div>
-                
-            </form>           
+
+            </form>
         </div>
