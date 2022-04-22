@@ -46,4 +46,5 @@ class ContactController extends Controller
         return view('admin.layouts.contact.Contactlist',compact('contacts'));
 
     }
+   
 }

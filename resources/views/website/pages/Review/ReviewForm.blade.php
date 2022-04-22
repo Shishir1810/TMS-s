@@ -59,8 +59,8 @@
 									<div class="col-sm-12">
                             <div class="form-group">
 									<span class="form-label">Traveler Name</span>
-                                  
-                                       
+
+
 									<select name="traveler_name" class="form-control" id="exampleFormControlSelect1">
 
 @foreach ($user as $user)
@@ -72,11 +72,11 @@
 @endforeach
 
 </select>
-                                                
-																			
+
+
                                             </div>
 								</div>
-								
+
 									</div>
 								<div class="row">
 									<div class="col-sm-7">
@@ -84,40 +84,40 @@
 											<span class="form-label">Location name</span>
 											<select class="form-control"name="location">
 											 @foreach ($location as $location)
-											 
+
 												<option value="{{$location->id}}">{{$location->Location_name}}</option>
 												@endforeach
 												</select>
 										</div>
 									</div>
-									<div class="col-sm-5">
+									{{-- <div class="col-sm-5">
 										<div class="form-group">
 											<span class="form-label">Spot</span>
 											<select class="form-control"name="spotname">
 											 @foreach ($spot as $spot)
-											
+
 												<option value="{{$spot->id}}">{{$spot->SpotName}}</option>
-											
+
                                                 @endforeach
 												</select>
 										</div>
-									</div>
-		
+									</div> --}}
+
 								</div>
-								
+
 								<div class="row">
                                 <div class="col-sm-12">
 										<div class="form-group">
 											<span class="form-label">review</span>
                                             <textarea style="width: 460px;height: 156px;"class="form-control" name="review"type="text"></textarea>
-											
+
 										</div>
 									</div>
-									
-									
-							
-									
-								
+
+
+
+
+
 								</div>
 								<div class="form-btn">
 									<button class="submit-btn">Submit</button>

@@ -31,7 +31,7 @@
       <div class="form-row" id="divToPrint">
       <table class="table">
                         <div class="row">
-                            
+
                             <div class="col-md-8 grid-margin">
                                 <table class="table text-center">
                                     <thead>
@@ -40,8 +40,8 @@
                                             <th scope="col">Transport name</th>
                                             <th scope="col">Transport Type</th>
                                             <th scope="col">location</th>
-                                            <th scope="col">Action</th>
-                                            
+                                            {{-- <th scope="col">Action</th> --}}
+
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -51,13 +51,13 @@
                                         <td>{{$transport->transportName}}</td>
                                         <td>{{$transport->transportType}}</td>
                                         <td>{{$transport->location}}</td>
-                                        
-                                           <td>
+
+                                           {{-- <td>
                                         <a  href=""><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
        <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
        <a href=""><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a>
-                                        </td>
-                                        
+                                        </td> --}}
+
                                       </tr>
                                       @endforeach
                                    </tbody>

@@ -12,7 +12,7 @@
         white-space:nowrap;
         width:inherit;
     }
-    
+
     a:hover i {
             transform: scale(1.5);
         }
@@ -27,7 +27,7 @@
         white-space:nowrap;
         width:inherit;
     }
-    
+
     </style>
 <div class="content-wrapper"style="overflow-y:scroll;">
 @if ($errors->any())
@@ -65,34 +65,34 @@
                                             <th scope="col">SL</th>
                                             <th scope="col">Travler name</th>
                                             <th scope="col">location name</th>
-                                            <th scope="col">Spot name</th>
-                                            
-                                            
+                                            {{-- <th scope="col">Spot name</th> --}}
+
+
                                             <th style="width= 100px 1important;">Review</th>
                                             <th scope="col">Action</th>
                                             <th scope="col">status</th>
-                                            
+
                                         </tr>
                                     </thead>
                                     <tbody>
                                       @foreach($reviews as $key=>$review)
                                       <tr>
-                                      
+
                                         <th>{{$key+1}}</th>
-                                        
+
                                         <td>{{$review->user->name}}</td>
                                         <td>{{$review->location->Location_name}}</td>
-                                        <td>{{$review->spot->SpotName}}</td>
-                                        
-                                      
+                                        {{-- <td>{{$review->spot->SpotName}}</td> --}}
+
+
                                         <td class="setWidth concat"><div>{{$review->review}}</div></td>
                                         <td>
-                                        <a  href=""><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
+                                        {{-- <a  href=""><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
        <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
-       <a href=""><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a>
+       <a href=""><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a> --}}
                                         @if($review->status=='pending')
        <a href="{{route('admin.review.approve',$review->id)}}"><span class="ml-2"><i class="fa fa-check-square-o fa-2x"style="color:#4b49ac;" ></i></span></a>
-       
+
        <a href="{{route('admin.review.decline',$review->id)}}"><span class="ml-2"> <i class="fa fa-times fa-2x"style="color:#4b49ac;" ></i></span></a>
        @endif
       </td>

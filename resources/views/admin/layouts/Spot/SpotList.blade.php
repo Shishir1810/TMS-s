@@ -97,7 +97,7 @@
 
                                             <td>
                                         <a  href="{{route('admin.spot.details',$Spot->id)}}"><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
-       <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
+       {{-- <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a> --}}
        @if($Spot->status=='pending')
        <a href="{{route('admin.user.spot.approve',$Spot->id)}}"><span class="ml-2"><i class="fa fa-check-square-o fa-2x"style="color:#4b49ac;" ></i></span></a>
 

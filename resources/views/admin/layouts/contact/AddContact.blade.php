@@ -20,7 +20,6 @@
 @endif
 </div>
 </div>
-<br></br>
 
 <form action="{{route('contact.store')}}" method="POST" >
 
@@ -51,7 +50,7 @@
         Looks good!
       </div>
     </div>
-    
+
     </div>
     <div class="form-row">
     <div class="col-md-4 mb-3">
@@ -61,23 +60,23 @@
         Looks good!
       </div>
     </div>
-    
+
     </div>
-   
+
     <div class="form-row">
   <div class="col-md-4 mb-3">
       <label for="validationCustomUsername">Address</label>
-    
+
         <input name="address" class="form-control" id="validationCustomUsername" placeholder="address" aria-describedby="inputGroupPrepend" >
         <div class="valid-feedback">
-          
-        
+
+
       </div>
     </div>
-   
-  
+
+
     </div>
-     
+
   <div class="form-group">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -91,8 +90,8 @@
 </div>
 
 
-      
-    
+
+
   <button class="btn btn-primary" type="submit">Submit form</button>
 </div>
 </div>

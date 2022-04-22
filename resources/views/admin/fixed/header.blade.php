@@ -31,7 +31,7 @@
 
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="{{url('backend/images/faces/admin.jpg')}}" alt="profile"/>
+              <img src="{{url('/backend/images/faces/admin.jpg')}}" alt="profile"/>
               <span>{{auth()->user()->name}}  ({{auth()->user()->role}}) </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">

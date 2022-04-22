@@ -36,15 +36,15 @@
                                         <tr>
                                             <th scope="col">SL</th>
                                             <th scope="col">Travelers Name</th>
-                                          
+
                                             <th scope="col">Email</th>
                                             <th scope="col">Address</th>
                                             <th scope="col">Contact Number</th>
                                             <th scope="col">Gender</th>
                                             <th scope="col">Date of Birth</th>
                                             <th scope="col">National Identity Card</th>
-                                            <th scope="col">Actions</th>
-                                          
+                                            
+
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -52,18 +52,14 @@
                                       <tr>
                                         <th>{{$key+1}}</th>
                                         <td>{{$traveler->name}}</td>
-                                        
+
                                         <td>{{$traveler->email}}</td>
                                         <td>{{$traveler->Address}}</td>
                                         <td>{{$traveler->mobile}}</td>
                                         <td>{{$traveler->Gender}}</td>
                                         <td>{{$traveler->DOB}}</td>
                                         <td>{{$traveler->NID}}</td>
-                                        <td>
-                                        <a  href=""><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
-       <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
-       <a href=""><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a>
-                                        </td>
+
                                       </tr>
                                       @endforeach
                                    </tbody>

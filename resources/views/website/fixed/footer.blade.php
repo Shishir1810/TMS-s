@@ -18,7 +18,7 @@
 
 						<div class="col-sm-3">
 							<div class="single-footer-item">
-								<h2>link</h2>
+								<h2>ABOUT</h2>
 								<div class="single-footer-txt">
 									<p><a href="#">home</a></p>
 									<p><a href="#">destination</a></p>
@@ -33,35 +33,35 @@
 
 						<div class="col-sm-3">
 							<div class="single-footer-item">
-								<h2>Popular Destination in Bangladesh</h2>
+								<h2>District in Bangladesh</h2>
 								<div class="single-footer-txt">
-									<p><a href="#">Dhaka</a></p>
-									<p><a href="#">Barishal</a></p>
-									<p><a href="#">Khulna</a></p>
-									<p><a href="#">Rajshahi</a></p>
-									<p><a href="#">Chattagram</a></p>
-									<p><a href="#">Mymensingh</a></p>
-									<p><a href="#">Rangpur</a></p>
-									<p><a href="#">Sylhet</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Dhaka">Dhaka</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Barisal_District">Barishal</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Khulna">Khulna</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Rajshahi">Rajshahi</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Chittagong">Chattagram</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Cox%27s_Bazar">Cox's Bazar</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Rangpur_District">Rangpur</a></p>
+									<p><a href="https://en.wikipedia.org/wiki/Sylhet">Sylhet</a></p>
 								</div><!--/.single-footer-txt-->
 							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
 
 						<div class="col-sm-3">
-							<div class="single-footer-item text-center">
+							{{-- <div class="single-footer-item text-center">
 								<h2 class="text-left">contacts</h2>
 								<div class="single-footer-txt text-left">
 
 
 
-								{{-- <p>{{$contacts->company_name}}</p>
+								<p>{{$contacts->company_name}}</p>
 									<p>{{$contacts->email}}</p>
 									<p class="foot-email"><a href="#"></a></p>
 									<p>{{$contacts->country}}</p>
 									<p>{{$contacts->phone}}</p>
 								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
-						</div><!--/.col--> --}}
+							</div><!--/.single-footer-item--> --}}
+						</div><!--/.col-->
 
 					</div><!--/.row-->
 

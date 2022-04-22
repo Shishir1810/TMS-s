@@ -64,7 +64,7 @@
 									<div class="col-sm-7">
                             <div class="form-group">
 									<span class="form-label">Tour Name</span>
-									<input class="form-control" name="TourName" type="text" placeholder="Enter a destination or hotel name">
+									<input class="form-control" name="TourName" type="text" placeholder="Enter name">
 								</div>
 								</div>
 								<div class="col-sm-5">
@@ -80,7 +80,7 @@
 											<span class="form-label">Destination</span>
 											<select class="form-control"name="TourDestination">
 											 @foreach ($location as $location)
-											 
+
 												<option value="{{$location->id}}">{{$location->Location_name}}</option>
 												@endforeach
 												</select>
@@ -91,14 +91,14 @@
 											<span class="form-label">Spot</span>
 											<select class="form-control"name="spotname">
 											 @foreach ($spot as $spot)
-											 
+
 												<option value="{{$spot->id}}">{{$spot->SpotName}}</option>
-												
+
 												@endforeach
 												</select>
 										</div>
 									</div>
-		
+
 								</div>
 								<div class="row">
 									<div class="col-sm-6">
@@ -121,25 +121,25 @@
 											<span class="form-label">Transport</span>
 											<select class="form-control"name="Transport">
 											 @foreach ($transports as $transport)
-											 
+
 												<option value="{{$transport->id}}">{{$transport->transportType}}</option>
 												@endforeach
-												</select>										
+												</select>
 											</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
 											<span class="form-label">Member amount</span>
                                             <input class="form-control"name="members" type="text" required>
-					
+
 										</div>
 									</div>
 									<div class="col-sm-7">
 										<div class="form-group">
-										
-									
+
+
 											<span class="form-label">Traveler name</span>
-	
+
 											<select class="form-control"name="username">
 											 @foreach ($user as $user)
 											 @if($user->role=='user')
@@ -147,8 +147,8 @@
 												@endif
 												@endforeach
 												</select>
-											<span class="select-arrow"></span> 
-											
+											<span class="select-arrow"></span>
+
 										</div>
 									</div>
 									<div class="col-sm-5">
@@ -168,6 +168,6 @@
 			</div>
 		</div>
 	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>

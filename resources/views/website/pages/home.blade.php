@@ -43,8 +43,11 @@
 <!--/.about-us-->
 <!--about-us end -->
 
+
+
+
 <!--travel-box start-->
-<section class="travel-box">
+{{-- <section class="travel-box">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -360,9 +363,11 @@
     </div>
     <!--/.container-->
 
-</section>
+</section> --}}
 <!--/.travel-box-->
 <!--travel-box end-->
+
+
 
 <!--service start-->
 <section id="service" class="service">
@@ -743,7 +748,7 @@
                         <span class="icon section-icon">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
-                        <h4>{{$review->spot->SpotName}},{{$review->location->Location_name}}</h4>
+                        <h4>{{$review->location->Location_name}}</h4>
                         <p>
                             {{$review->review}}
                         </p>

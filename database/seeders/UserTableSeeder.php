@@ -26,8 +26,8 @@ class UserTableSeeder extends Seeder
                 'DOB'=>'10-10-1997',
                 'mobile'=>'01875212323',
                 'role'=>'admin',
-                'bio' => 'Admin of Tour planning management system.',
-                'image'=>'admin.jpg'
+                'bio' => 'Admin of Tour management system',
+                'image'=>'admin.jpg',
 
 
             ]

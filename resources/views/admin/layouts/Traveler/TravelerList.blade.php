@@ -16,7 +16,7 @@ a:hover i {
         width:inherit;
     }
 
-    
+
     </style>
 <div class="content-wrapper">
     <div class="row">
@@ -26,29 +26,29 @@ a:hover i {
                     <h3 class="font-weight-bold">Traveler</h3>
                     <table class="table">
                         <div class="row">
-                      
+
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
                 <ul class="navbar-nav mr-lg-2">
-                        
+
                         <form action="{{route('traveler.List')}}" method="get">
-                       
-                        
+
+
               <li class="nav-item nav-search d-none d-lg-block">
                 <div class="input-group">
                   <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
                     <span class="input-group-text" id="search"style="display: contents;">
-                        
+
                     <button class="btn" type="submit"><i class="icon-search" ></i></button>
                     </span>
                   </div>
-                  
-                 
+
+
                   <input type="text" name="search" value="{{$key}}"class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
                 </div>
-         
+
               </li>
-    </form>  
-            </ul>           
+    </form>
+            </ul>
 </div>
 </div>
 
@@ -63,15 +63,15 @@ a:hover i {
                                         <tr>
                                             <th scope="col">SL</th>
                                             <th scope="col">Travelers Name</th>
-                                          
+
                                             <th scope="col">Email</th>
                                             <th scope="col">Address</th>
                                             <th scope="col">Contact Number</th>
                                             <th scope="col">Gender</th>
                                             <th scope="col">Date of Birth</th>
                                             <th scope="col">National Identity Card</th>
-                                            <th scope="col">Actions</th>
-                                          
+                                            
+
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -79,18 +79,14 @@ a:hover i {
                                       <tr>
                                         <th>{{$key+1}}</th>
                                         <td>{{$traveler->name}}</td>
-                                        
+
                                         <td>{{$traveler->email}}</td>
                                         <td>{{$traveler->Address}}</td>
                                         <td>{{$traveler->mobile}}</td>
                                         <td>{{$traveler->Gender}}</td>
                                         <td>{{$traveler->DOB}}</td>
                                         <td>{{$traveler->NID}}</td>
-                                        <td>
-                                        <a  href=""><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
-       <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
-       <a href=""><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a>
-                                        </td>
+
                                       </tr>
                                       @endforeach
                                    </tbody>
