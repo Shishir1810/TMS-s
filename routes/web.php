@@ -195,6 +195,10 @@ Route::post('/travelers/report/search',[TravelerController::class,'TravelerRepor
 Route::get('/admin/Transport/Addtransport',[TransportController::class,'addransport'])->name('admin.addtransportform');
 Route::post('/admin/Transport/Storetransport',[TransportController::class,'Storetransport'])->name('Admin.Transport.Store');
 Route::get('/admin/Transport/transportList',[TransportController::class,'TransportList'])->name('admin.addtransportList');
+Route::get('/admin/Transport/transportList/delete/{id}',[TransportController::class,'delete'])->name('admin.addtransportdelete');
+Route::get('/admin/Transport/transportList/{id}',[TransportController::class,'EditTransport'])->name('admin.transport.edit');
+Route::PUT('/admin/Transport/transportList/update/{id}',[TransportController::class,'UpdateTransport'])->name('admin.transport.update');
+Route::get('/admin/Transport/transportList/details/{id}',[TransportController::class,'TransportDetails'])->name('admin.transport.details');
 //--report--//
 Route::get('/transport/report',[TransportController::class,'TransportReportshow'])->name('transport.Report');
 Route::post('/transport/report/show',[TransportController::class,'TransportReport'])->name('transport.Report.show');

@@ -13,11 +13,11 @@
                                 Take memories, leave footprints
 
                             </h3>
-                            <div class="about-btn">
+                            {{-- <div class="about-btn">
                                 <button class="about-view"href="">
                                     Explore Nature
                                 </button>
-                            </div>
+                            </div> --}}
                             <!--/.about-btn-->
                         </div>
                         <!--/.about-us-txt-->
@@ -47,7 +47,7 @@
 
 
 <!--travel-box start-->
-{{-- <section class="travel-box">
+<section class="travel-box">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -363,7 +363,7 @@
     </div>
     <!--/.container-->
 
-</section> --}}
+</section>
 <!--/.travel-box-->
 <!--travel-box end-->
 

@@ -67,7 +67,7 @@ a:hover i {
                                             <th scope="col">Transport name</th>
                                             <th scope="col">Transport Type</th>
                                             <th scope="col">location</th>
-                                            {{-- <th scope="col">Action</th> --}}
+                                            <th scope="col">Action</th>
 
                                         </tr>
                                     </thead>
@@ -79,11 +79,11 @@ a:hover i {
                                         <td>{{$transport->transportType}}</td>
                                         <td>{{$transport->location}}</td>
 
-                                           {{-- <td>
-                                        <a  href=""><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
-       <a href=""><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
-       <a href=""><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a>
-                                        </td> --}}
+                                        <td>
+                                            <a  href="{{route('admin.transport.details',$transport->id)}}"><i class="fa fa-eye fa-2x"style="color: #4b49ac;"></i></a>
+           <a href="{{route('admin.transport.edit',$transport->id)}}"><span class="ml-2"><i class="fa fa-pencil-square fa-2x"style="color: #4b49ac;"></i></span></a>
+           <a href="{{ route('admin.addtransportdelete',$transport->id) }}"><span class="ml-2"><i class="fa fa-trash fa-2x"style="color:red;"></i></span></a>
+                                            </td>
 
                                       </tr>
                                       @endforeach

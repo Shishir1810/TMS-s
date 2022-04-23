@@ -48,7 +48,7 @@
 						</div><!--/.col-->
 
 						<div class="col-sm-3">
-							{{-- <div class="single-footer-item text-center">
+							<div class="single-footer-item text-center">
 								<h2 class="text-left">contacts</h2>
 								<div class="single-footer-txt text-left">
 
@@ -60,7 +60,7 @@
 									<p>{{$contacts->country}}</p>
 									<p>{{$contacts->phone}}</p>
 								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item--> --}}
+							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
 
 					</div><!--/.row-->

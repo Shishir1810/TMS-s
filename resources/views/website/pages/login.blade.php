@@ -8,10 +8,10 @@
 <head>
 	<title>Login Page</title>
    <!--Made with love by Mutiullah Samim -->
-   
+
 	<!--Bootsrap 4 CDN-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
     <!--Fontawesome CDN-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -28,17 +28,17 @@
     <p class="alert alert-danger">{{session()->get('error')}}</p>
 @endif
 <div class="container">
-  
+
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
 				<h3>Sign In</h3>
 				<div class="d-flex justify-content-end social_icon">
-				
+
 				</div>
 			</div>
 			<div class="card-body">
-			
+
         <form action="{{route('user.dologin')}}" method="post">
             @csrf
 					<div class="input-group form-group">
@@ -46,7 +46,7 @@
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
 						<input name="email" type="text" class="form-control" placeholder="username">
-						
+
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -55,7 +55,7 @@
 						<input name="password"type="password" class="form-control" placeholder="password">
 					</div>
 					<div class="row align-items-center remember">
-					
+
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Login" class="btn float-right login_btn">
@@ -104,7 +104,7 @@
           <div class="md-form pb-3">
             <input type="password" id="Form-pass5" class="form-control validate white-text">
             <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label> -->
-          
+
             <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
@@ -114,7 +114,7 @@
                   </div>
                   <div class="col-md-6 mb-4 ">
                     <div class="form-outline">
-                      <input name="user_mobile" type="mobile" id="form3Example1n" class="form-control form-control-lg" />
+                      <input name="user_mobile" type="number" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Mobile No.</label>
                     </div>
                   </div>
@@ -140,38 +140,38 @@
                   <input name="Address" type="text" id="form3Example8" class="form-control form-control-lg" />
                   <label class="form-label" for="form3Example8">Address</label>
                 </div>
-                
+
                 <div class="col-6 col-md-4" >
-              
-               
+
+
 <input class="form-control" list="Gender" name="gender">
 <datalist id="Gender">
   <option value="Male">
   <option value="Female">
   <option value="Other">
-  
+
 </datalist>
 <label for="Gender" class="form-label">Gender</label>
   </div>
   </div>
-            
-          
+
+
                   <div class="row">
-                
+
                     <div class="col-6">
                       <input name="DOB" type="date" id="form3Example1m" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1m">Date of Birth</label>
                     </div>
-                  
+
                   <div class="col-md-6 mb-4">
-                   
-                      <input name="nid" id="form3Example1n" class="form-control form-control-lg" />
+
+                      <input name="nid" type="number" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">NID/Birth cirtificate</label>
                     </div>
                   </div>
                   <div class="row">
                   <div class="col-md-12 mb-4">
-               
+
                <input type="file" name="image" id="form3Example1n" class="form-control form-control-lg" />
                <label class="form-label" for="form3Example1n">image</label>
              </div>
@@ -179,13 +179,13 @@
                   <textarea name="bio" type="text" id="form3Example1m" class="form-control form-control-lg"></textarea>
                   <label class="form-label" for="form3Example1m">Bio</label>
                 </div>
-              
-             
-              </div>
-               
-                            
 
- 
+
+              </div>
+
+
+
+
             <div class="form-group">
               <input class="form-check-input" type="checkbox" id="checkbox624">
               <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
@@ -206,17 +206,17 @@
 
             </div>
           <!--Grid row-->
-          
-          <!--Grid row-->
 
           <!--Grid row-->
-        
+
+          <!--Grid row-->
+
 
             <!--Grid column-->
-            
+
             <!--Grid column-->
 
-         
+
           <!--Grid row-->
           </div>
         </div>

@@ -304,7 +304,7 @@ html,body{
 	background: url(../../assets/images/home/banner.jpg)no-repeat;
 	background-size: cover;
 	background-position: center;
-	min-height: 650px;
+	min-height: 800px;
 }
 .about-us:before{
 	position: absolute;
